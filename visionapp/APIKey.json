@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "studious-nature-399919",
+  "private_key_id": "e7c5987f841b79e1828d6968060a315ead819ee1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDbinsFdvRddOkV\nZC5j+3+6y7xTtC3vbDarW40eXEVlR/PRxwWgDpull2kfYT+mskUlfw1FeYmPWKOI\nK0xuV5QzUzFKS4GX+FnjNNaCca3FLsfxBYyF5K+ivD2TR4zvlHInFqXFdGZrSaUk\np490EKTM1vhmoKsqKip4T9a2JUsUN+BT49q0j7O42g/T/HjQ6lgef3TSgawAUblK\nutFeoXntt+d3azjMroG+ma2eU3NlhQ8JsvUQRtOiwXsaVcVX0BAZlXHUOCLGQ2ma\nzvn2gyVh//mfxGPXVawDB6NLcdbMRmKvDeJiiOhVDXIMKhfSCTvMFMqSTgej5S7G\nhJZTcry3AgMBAAECggEAbHxc2FF05a289D4iEnQYJTVCJda2kEZYKYs/C86q2Cab\nHIGNjQ9K6KQOZVxH+NbFBodnBnrNeBFkFgjXZvtOF6K3i7AOJQurV3QnwCPuq663\nTKniS9O62t7MSrgjs8wWMKynVBB1//RPb/KBF+iVl0dvTj989YQKopNJVY7OL/mW\nFWy31qbMoObgxXl+bVK/c3Nv0LJNquOHL37aI7WsnFG0eixmpBIEGJyN06Jc3aZW\naL2v04GafWZ0YP8hzhq6MQv7sxdvr3UhtwYyuA5HxZncF7jny73vemk69S+uE7p4\nATnRftSd5/GI/pXQJs48IJ98lUmZLY4zJ9EaSSyIOQKBgQD3TpSUgZphuSu0TNsr\noF3rPrN/2G8/mkuHVdc4SZicmiwij3yXbbnzbEXwXjGOLEHFz3a1jzZVXccT2hkK\nqFpbIxYa8OQpD1sG2GB+Hm4bIMDQjKazEox+zoVPzeBIkx2eUGTcWTuK4QJvHcC7\nxdS4Lsk6hkPNQwHBx9KwLtKoIwKBgQDjQgtmlR3Aaqt5jkYloo83rjvhVwxjnVte\nqp9NdaJHu/OJz1lQ9213x59oywsqNagWuvtKABWz3VZm+H8LgtUb1MAC5+NZKLVD\ncm1EuKLzOI/pTydWmbDDuC7nIoPUoQJqJU3BgPEf+vvl1RoDJvnYMqtKERj/pNX7\nWJpno4w4XQKBgDCjIrOGPa+EdGT0TJJq6q2uWi0FivOOS9Zk+nvWdY4vAAkYAR/i\n85Q9MhAQ5lwYtiLKJ4WTkdL+K33rAcvHymVsJBfOUoEExRk2itui7nKlYWZikxJa\nzojN4wgL7FU5obSWCRAQ+JXapNjnmBUV1j0W7np1F3aR/BF5VCVUQBfTAoGAP5Jx\nGAAss2/jifx3uP1xbNULoSy1pYQWVDQMniGDBOgZ53oedRzR/YjVGf56oBMkcz9Z\nHklJyOfozKNE/tZZgRCRqf5uRbmygyyWTnwL8VfoQg7HZV1W6lkynau1Dxz/TOwk\nhTXpvdV6878aKLmVeJor+mswAAt/ZHFTuBwzFG0CgYA2Me395j/fw/qZ5FNsIR9J\nM5AKeiJ+s5rIAU3Wpc53wJ6rO9dWiZhHfi+cbneNfEhYwoxkfOKpFaG/rOGN4k4Q\n5s0GGSfaUQmItd4E6+IMsQUSkHPGlLBOVtp9ni9/Ux3j4KBahY0kX7Zy8edeWzJo\nRjFcffXvL/Yr/HqScNHtCg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dormdeals@studious-nature-399919.iam.gserviceaccount.com",
+  "client_id": "101114664438688131508",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dormdeals%40studious-nature-399919.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

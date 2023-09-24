@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vision AI Demo</title>
+</head>
+
+<body>
+    <h1>Vision AI Demo</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" accept="image/*" capture="camera" required>
+        <button type="submit">Upload and Analyze</button>
+    </form>
+
+    <h2>Image Descriptions:</h2>
+    <ul>
+        {% for description in descriptions %}
+        <li>
+            {{ description.description }}
+            <button onclick="editDescription({{ description.id }})">Edit</button>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <script>
+        function editDescription(descriptionId) {
+            const newDescription = prompt("Edit Description:");
+            if (newDescription !== null) {
+                fetch(`/edit_description/${descriptionId}/`, {
+                        method: 'POST',
+                        headers: {
+                            'X-CSRFToken': "{{ csrf_token }}",
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            description: newDescription
+                        }),
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Refresh the page or update the specific description element
+                            window.location.reload();
+                        } else {
+                            alert("Failed to edit description.");
+                        }
+                    });
+            }
+        }
+    </script>
+</body>
+
+</html>
